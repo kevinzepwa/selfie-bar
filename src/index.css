@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body{
+  background-color: rgb(247, 174, 225);}
+
+.card-image {
+  max-width: 20%;
+  max-height: 450px;
+}
+.new-cocktail-form form {
+  display: flex;
+  justify-content: center;
+}
+
+.new-cocktail-form input {
+  margin-right: 2rem;
+  flex: 1;
+}
+
+.new-cocktail-form button {
+  width: 150px;
+}
+
+.new-cocktail-form {
+  color: rgb(41, 41, 41);
+  padding: 35px 15px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: rgba(249, 255, 161, 0.5);
+}
+
+.new-cocktail-form form {
+  display: flex;
+  justify-content: center;
+}
+
+.new-cocktail-form input {
+  margin-right: 2rem;
+  max-width: 85vw;
+  flex: 1;
+}
+.searchbar {
+  padding: 1rem;
+  margin: 2rem 0 4rem 0;
+  display: flex;
+  flex-direction: column;
+}
+.cards {
+  list-style: none;
+}
+
+.card {
+  margin: 1rem;
+  background-color: #bbb;
+  padding: 15px;
+  margin: 15px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card button {
+  margin-top: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: calc(33% - 2rem);
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    width: calc(25% - 2rem);
+  }
+}
+
+@media (min-width: 1200px) {
+  .card {
+    width: calc(20% - 2rem);
+  }
+}
+
+/****Navbar help with w3s****/
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(114, 43, 93);
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(247, 174, 225);
+}
+
+.active {
+  background-color: rgb(95, 82, 91);
+}
+.floatRight {
+  float: right;
+}
+.cocktails-title {
+  background-color: rgb(114, 43, 93);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}
+.card-btn {
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(114, 43, 93);
+  margin-right: 5px;
+}
+.card-btn:hover {
+  background-color: rgb(95, 82, 91);
+}
